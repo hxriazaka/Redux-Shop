@@ -1,0 +1,72 @@
+.App {
+  font-family: 'Poppins', sans-serif;
+  margin: 0 15%;
+  display: flex;
+}
+
+/*-----------Products---------*/
+.products {
+  flex: 1;
+  margin-right: 15px;
+  padding-top: 50px;
+}
+
+
+/*-----------Product---------*/
+
+.product {
+  height: 100px;
+  display: block;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+.content {
+  display: flex;
+  align-items: center;
+}
+img {
+  padding: 5px 15px;
+  width: 70px;
+}
+.price {
+  float: right;
+}
+.button {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+
+/*-----------CartShop---------*/
+
+.cartShop {
+  flex: 1;
+  background-color: rgb(226, 226, 226);
+  height: 100%;
+  width: 100%;
+  margin-left: 15px;
+  padding: 50px 40px 0 40px;
+}
+.cart-shop-total {
+  float: right;
+  padding-bottom: 20px;
+}
+
+/*-----------CartProduct---------*/
+
+.cartProduct {
+  display: flex;
+  border-bottom: 1px solid black;
+}
+.quantity {
+  display: flex;
+  align-items: center;
+}
+.quantity-button {
+  display: flex;
+  align-items: center;
+}
+.quantity-button button {
+  height: 30px;
+}
